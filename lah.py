@@ -1,7 +1,7 @@
 import boto3
 import time
 import argparse
-
+import sys
 # List of valid AWS service namespaces
 SERVICE_NAMESPACE_LIST = ['a2c', 'a4b', 'access-analyzer', 'account', 'acm', 'acm-pca',
                           'activate', 'airflow', 'amplify', 'amplifybackend', 'amplifyuibuilder',
